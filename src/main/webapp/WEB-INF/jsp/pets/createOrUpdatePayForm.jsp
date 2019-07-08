@@ -6,7 +6,7 @@
     <body>
         <div style="padding-left:250px;font-family:monospace;">
             <h2>Pay Appointment Charges</h2>
-            <form action="http://localhost:8080/digirest/rest/AccountService/onlinepayment" method="POST">
+            <form action="http://localhost:18080/digirest/rest/AccountService/onlinepayment" method="POST">
                 <div style="width: 100px; text-align:left;">
                     <div style="padding:15px;">
                         Username: <input type="text" name="username" />
@@ -29,7 +29,7 @@
                         Amount: <input name="amount" />
                     </div>
                     <div style="padding:20px;text-align:center">
-                    <input id="urlpath" name="urlpath" type="hidden" value="http://localhost:8080/petclinic/owners">
+                    <input id="urlpath" name="urlpath" type="hidden" value="http://localhost:18080/petclinic/owners">
                 	</div>
                     <div style="padding:20px;text-align:center">
                         <input type="submit" value="Submit" />
