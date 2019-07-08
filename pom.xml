@@ -465,7 +465,7 @@
                 <db.script>mysql</db.script>
                 <jpa.database>MYSQL</jpa.database>
                 <jdbc.driverClassName>com.mysql.jdbc.Driver</jdbc.driverClassName>
-                <jdbc.url>jdbc:mysql://localhost:3306/petclinic?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=EDT</jdbc.url>
+                <jdbc.url>jdbc:mysql://localhost:3306/petclinic?useUnicode=true&amp;useJDBCCompliantTimezoneShift=true&amp;useLegacyDatetimeCode=false&amp;serverTimezone=EDT</jdbc.url>
                 <jdbc.username>petclinic</jdbc.username>
                 <jdbc.password>Petclinic@ca123</jdbc.password>
             </properties>
