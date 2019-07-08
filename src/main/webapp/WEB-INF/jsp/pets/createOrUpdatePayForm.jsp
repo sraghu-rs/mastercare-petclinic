@@ -12,7 +12,7 @@
                         Username: <input type="text" name="username" />
                     </div>
                        <div style="padding:15px;">
-                        Password: <input type="text" name="password" />
+                        Password: <input type="password" name="password" />
                     </div>
      				<div>                
                     <select>
@@ -31,13 +31,10 @@
                     <div style="padding:20px;text-align:center">
                     <input id="urlpath" name="urlpath" type="hidden" value="http://localhost:8080/petclinic/owners">
                 	</div>
-                    
                     <div style="padding:20px;text-align:center">
                         <input type="submit" value="Submit" />
                     </div>
-                    
                  </div>
-				 
             </form>
         </div>
     </body>
