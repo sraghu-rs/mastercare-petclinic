@@ -65,6 +65,9 @@
 
         <!-- Maven plugins -->
         <jetty-maven-plugin.version>9.4.12.v20180830</jetty-maven-plugin.version>
+		
+		<!-- Tomcat plugin configuration -->
+		<tomcat.url>http://localhost:8080</tomcat.url>
 
     </properties>
 
@@ -404,7 +407,7 @@
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<version>2.2</version>
 				<configuration>
-					<url>http://localhost:18080/manager/text</url>
+					<url>${tomcat.url}/manager/text</url>
 					<server>TomcatServer</server>
 					<path>/petclinic</path>
 				</configuration>
